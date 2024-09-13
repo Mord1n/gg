@@ -5,7 +5,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// HelloCmd represents the hello command
 var HelloCmd = &cobra.Command{
 	Use:   "hello",
 	Short: "Prints 'hello world'",
